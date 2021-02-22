@@ -1,8 +1,8 @@
 h1{
-    color:rgb(117, 19, 19);
+    color:#fdfdfd;
 
-        font-size:45px;
-        text-align:justify;
+        font-size:60px;
+        text-align:center;
         font-family: 'PaintyPaint';
         font-weight:normal;
         font-style:normal;
@@ -10,16 +10,109 @@ h1{
 
 }
 
-head{
-    background: url("images/eye.jpg");
-    height:100vh
+
+    
+body {
+        background-image: url("images/eye.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        max-height: 100vh;
+
+
 }
 
 
-      body {
-        background-image: url("images/eye.jpg");
-        background-repeat: no-repeat;
-        background-attachment: fixed; 
-        background-size: 100% 100%;
-      }
-      
+
+
+.grid {
+display: grid;
+grid-template: 20% 15% 15% 15% 15% 15% / 2fr 20% 25% 25% 25% 2fr  ;
+    height: 100%;
+    width: 100%;
+    grid-gap: 4px;
+}
+
+#logo{
+    grid-column: 1 / span 1;
+    grid-row: 1 / span 1 ;
+}
+.com{
+    grid-column: 3 / span 1;
+    grid-row: 1 / span 1 ;
+    
+}
+
+.port{
+    grid-column: 4 / span 1;
+    grid-row: 4 / span 1;
+    
+}
+
+.soc{
+    grid-column: 2 / span 1;
+    grid-row: 4 / span 1;
+    
+}
+
+.bas{
+    grid-column: 3 / span 1;
+    grid-row: 5 / span 1;
+    
+}
+
+.about{
+    grid-column: 4 / span 1;
+    grid-row: 2 / span 1;
+    
+}
+
+.con{
+    grid-column: 2 / span 1;
+    grid-row: 2 / span 1;
+}
+
+
+h1:hover {
+    background-color: rgb(95, 4, 4);
+    block-size: 50px;
+  }
+
+
+
+
+
+footer{
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+    text-align: center;
+    background-color: none;
+    grid-column: 5 / span ;
+    grid-row: 4 / span ;
+
+}
+
+
+
+h6{
+    color: rgb(0, 0, 0);
+    font-size: 45px;
+    text-align: justify;
+    font-weight: normal;
+    padding: 10px 10px;
+
+}
+
+
+
+
+
+
+
+  
+
+  
+  
+
+
+  
