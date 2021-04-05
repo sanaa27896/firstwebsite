@@ -1,5 +1,25 @@
+                  /* <<---------------------------------------Text---------------------------->> */
 
-h1{
+                  @media only screen and (max-width:800px) {
+                    /* For tablets: */
+                    .body {
+                      width: 80%;
+                      padding: 0;
+                    }
+                    .right {
+                      width: 100%;
+                    }
+                  }
+                  @media only screen and (max-width:500px) {
+                    /* For mobile phones: */
+                    .body, .contact, .right {
+                      width: 100%;
+                    }
+                  }
+
+
+
+                  h1{
     color:#fdfdfd;
 
         font-size:60px;
@@ -15,25 +35,31 @@ h1{
 
 h1:hover {
     background-color: rgb(95, 4, 4);
-    block-size: 50px;
+    block-size: 40px;
+    padding: 5px;
   }
 
-h2{
-    color:#681010;
-
-    font-size:1402px;
-        text-align:center;
-        font-family: 'PaintyPaint';
-        font-weight:normal;
-        font-style:normal;
-}
-    
 .fontface{
     font-family: 'PaintyPaint';
     font-weight:normal;
         font-style:normal;
         text-shadow: 10px 5px #312006;
 }
+
+
+h2{
+    color:#fdfdfd;
+
+        font-size:60px;
+        text-align:center;
+        font-family: 'PaintyPaint';
+        
+        
+        
+    
+
+}
+
 
 h3{
     grid-column: 2 / span 1;
@@ -46,12 +72,35 @@ h3{
 }
 
 
+
+h4,h5{
+text-align: center;
+font-family: Oswald-Regular;
+  src: url('../fonts/oswald/Oswald-Regular.ttf'); 
+}
+
+h5:label{
+    text-align: center;
+}
+
+
+
+
+
+
+
 body {
         background-image: url("/images/eye.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         /* background-size: cover; */
-        max-height: 100vh;
+        max-width: 100vw;
+        max-width: 100vw;
+
+
+
+
+        
         
         
 
@@ -59,7 +108,7 @@ body {
 }
 
 
-
+/* <<<--------------------------------------------Main Page grid------------------------------------------------------->>> */
 
 .grid {
 display: grid;
@@ -74,19 +123,16 @@ grid-template: 15% 15% 15% 15% 15% 15% / 20% 20% 20% 20% 20%;
    width: 195px;
     margin-top: 3%;
     margin-left: 4%;
-    padding: 5%;
+    
 }
 
-
+                                            /* Main page text */
 .com{
     grid-column: 3 / span 1;
     grid-row: 2 / span 1 ;
     
 }
 
-.com:hover{
-
-}
 
 .port{
     grid-column: 4 / span 1;
@@ -123,47 +169,17 @@ grid-template: 15% 15% 15% 15% 15% 15% / 20% 20% 20% 20% 20%;
 
 p{
     color: rgb(0, 0, 0);
-    font-size: 15px;
+    font-size: 2%;
     text-align: center;
     font-weight: bold;
     padding: 10px 10px;
+    
 
 }
 
-
-.grid2{
-    display: grid;
-    height: 250px;
-    width: 100vw;
-
-
-    grid-template-columns: 1fr 1fr 1fr ;
-    grid-template-rows: 250px 250 px;
-    grid-column-gap: 10px;
-    grid-row-gap: 10px;
-
-
-   
-      
-     
-      }
-    .grid2 img{
-        height:100%;
-        width:100%;
-        object-fit:cover;
-    }
-
-
-.form-group{
-    text-align: center;
-}
-
-
-
   
 
-  
-  
+
 footer{
     position: absolute;
     width: 100%;
@@ -174,3 +190,5 @@ footer{
     grid-row: 4 / span ;
 
 }
+
+

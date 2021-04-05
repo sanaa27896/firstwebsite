@@ -1,0 +1,59 @@
+                                                    /* Instagram Gallery */
+
+                                                    
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(22rem, 1fr));
+    grid-gap: 2rem;
+
+}
+    
+    .gallery img{
+        height:100vh;
+        width:100vw;
+        object-fit:cover;
+    }
+
+
+
+
+.selfport:hover{
+    border: 3px solid rgb(128, 77, 77)
+}
+
+.evergreen:hover{
+    border: 3px solid rgb(7, 73, 29)
+}
+
+.blackb:hover{
+    border: 3px solid rgb(126, 32, 126)
+}
+
+.orange:hover{
+    border: 3px solid rgb(196, 92, 8)
+}
+
+.pause:hover{
+    border: 3px solid rgb(165, 24, 24)
+}
+
+.spring:hover{
+    border: 3px solid rgb(7, 97, 52)
+}
+
+.yabt:hover{
+    border: 3px solid rgb(226, 71, 71)
+}
+
+.mild:hover{
+    border: 3px solid rgb(105, 20, 126)
+}
+
+.rough:hover{
+    border: 3px solid rgb(35, 68, 105)
+}
+
+.stillife:hover{
+    border: 3px solid rgb(145, 19, 19)
+}
+
