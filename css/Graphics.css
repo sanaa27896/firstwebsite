@@ -1,0 +1,21 @@
+
+body{
+
+
+background-image: url("images/mat.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+/* background-size: cover; */
+max-width: 100vw;
+max-height: 100vh;
+overflow: hidden;
+}
+
+
+.malogo{
+        text-align: left;
+        width: 195px;
+         margin-top: 1%;
+         margin-left: 1%;
+         
+     }
